@@ -9,7 +9,6 @@ rfm<-read.csv("rfm.csv", header =TRUE, sep=",")
 rfm<-rfm%>%
   rename(customer_id = #your column#,
          client_name = #your column#,
-         invoice_id = #your column#,
          invoice_date = #your column#,
          revenue = #your column# 
            )
